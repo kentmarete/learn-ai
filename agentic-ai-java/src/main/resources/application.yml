@@ -1,0 +1,10 @@
+agent:
+  model: ${MODEL_NAME:claude-opus-5-5}
+  max-steps: ${MAX_STEPS:6}
+  max-tokens: ${MAX_TOKENS:16000}
+  timeout-seconds: ${TIMEOUT_S:60}
+  tool-timeout-seconds: ${TOOL_TIMEOUT_S:10}
+  knowledge-dir: ${KNOWLEDGE_DIR:data/knowledge}
+
+server:
+  port: ${PORT:8000}
