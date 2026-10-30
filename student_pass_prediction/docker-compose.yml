@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    image: student-pass-prediction
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
